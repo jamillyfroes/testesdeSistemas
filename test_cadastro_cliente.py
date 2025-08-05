@@ -5,7 +5,7 @@ import time
 # Configuração do WebDriver (nesse exemplo, estamos usando o Chrome )
 driver= webdriver.Chrome()
 
-#Acessa a página de cadastro usando o caminho absoluto com o protocolo file://
+# Acessa a página de cadastro usando o caminho absoluto com o protocolo file://
 # Certifique-se de que o caminho está apontando para um arquivo HTML específico
 
 driver.get("file:///C:/Users/jamilly_froes/Downloads/testesdeSistemas/index.html")
@@ -14,7 +14,7 @@ driver.get("file:///C:/Users/jamilly_froes/Downloads/testesdeSistemas/index.html
 nome_input= driver.find_element(By.ID, "name")
 nome_input.send_keys("João da Silva")
 
-#Preenche o campo CPF
+# Preenche o campo CPF
 cpf_input = driver.find_element(By.ID, "cpf")
 cpf_input.send_keys("12345678901")
 
