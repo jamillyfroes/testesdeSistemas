@@ -1,4 +1,4 @@
-from selenium import webdriver 
+""" from selenium import webdriver 
 from selenium.webdriver.common.by import By
 import time
 
@@ -28,4 +28,4 @@ preco_input.send_keys("29.99")
 
 time.sleep(8)
 
-driver.quit()
+driver.quit() """
